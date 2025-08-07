@@ -1,0 +1,136 @@
+1. Basic UI Actions
+
+Click
+Fill Input Field
+Clear Input Field
+Press Keyboard Keys
+Hover Over Element
+Double Click
+Right Click (Context Menu)
+Drag and Drop
+Scroll into View
+Get Element Text
+Get Element Attribute
+Get CSS Value
+Upload File
+Download File
+Take Screenshot (Element, Full Page)
+
+🔹 2. Form Controls
+Handle Dropdowns (Select by Value/Label/Index)
+Handle Multi-Select Dropdowns
+Handle Checkboxes (Check / Uncheck)
+Handle Radio Buttons
+Handle Date Pickers
+Autocomplete Field Handling
+Toggle Switch Handling
+Form Submission
+
+🔹 3. Assertions & Validations
+Assert Element is Visible
+Assert Element is Hidden / Not Present
+Assert Element Contains Text
+Assert Text Equals / Matches Regex
+Assert Attribute Value
+Assert Checkbox is Checked / Unchecked
+Assert URL Contains / Equals
+Assert Page Title
+Assert Number of Elements (e.g., list items count)
+Assert Element is Enabled / Disabled
+Assert Element has CSS Class / Style
+
+🔹 4. Page Navigation & Control
+Navigate to URL
+Reload Page
+Go Back / Go Forward in Browser History
+Wait for Navigation
+Wait for URL Change
+Set Viewport / Device Emulation
+Handle Browser Contexts
+Open New Tab / Switch Tab
+Handle Popups / Modals
+Handle Alerts (Accept / Dismiss)
+Handle Frames / iFrames
+
+Set Geolocation
+
+🔹 5. Test Structure / Control
+Test Grouping (test.describe)
+Test Hooks (beforeAll, beforeEach, afterEach, afterAll)
+Skipping Tests / Tagging Tests
+Parameterized / Data-Driven Tests
+Parallel Test Execution
+Retry Failed Tests
+
+Conditional Test Execution (e.g., OS-specific)
+
+🔹 6. Network & API Testing
+Intercept Network Requests
+Mock API Responses
+Modify Request Headers
+Wait for Network Requests
+Assert API Call Results
+
+Block Resources (e.g., images/fonts)
+
+🔹 7. Test Data & Configurations
+Load Test Data from JSON / CSV / Excel
+Use Environment Variables (.env files)
+Handle Multiple Test Environments (dev, staging, prod)
+Global Configuration (playwright.config.js)
+
+Manage Test Users & Credentials
+
+🔹 8. Page Object Model (POM)
+Create Page Classes
+Define Element Selectors
+Encapsulate Page Actions
+Reuse Methods Across Tests
+
+Combine with Fixtures for Reusability
+
+🔹 9. Test Reporting
+HTML Reporter (Built-in)
+Allure Reporter Integration
+JSON / JUnit Reporter
+Custom Reporter Implementation
+Screenshots on Failure
+Video Recording per Test
+
+🔹 10. CI/CD & DevOps Integration
+GitHub Actions Workflow
+Jenkins Pipeline Integation
+GitLab CI/CD
+Azure DevOps Pipelines
+Trigger Tests on PR or Push
+Upload Reports / Artifacts
+
+🔹 11. Cross-Browser & Mobile Testing
+Run Tests on Chromium, Firefox, WebKit
+Emulate Mobile Devices (iPhone, Galaxy, etc.)
+Set User Agent / Viewport
+Headless vs Headed Mode
+
+Slow Mo Execution (for debugging)
+
+🔹 12. Utilities & Helpers
+Custom Utility Functions (e.g., random data)
+Date / Time Functions
+Retry Wrappers
+Wait Utility (Explicit Waits)
+Screenshot Comparisons (Visual Testing)
+Dynamic Locator Builders
+
+🔹 13. Advanced Patterns
+Test Fixtures (Shared Context)
+Test Tag Filtering (grep, tags)
+Modular Test Suites
+Integration with Test Management Tools (e.g., TestRail, XRay)
+Role-based Testing (Admin/User flows)
+Multi-user Session Testing
+
+🔹 14. Security / Accessibility / Performance (Optional)
+Run Lighthouse Audits
+Capture Console Logs / Errors
+Accessibility Testing (a11y Tree)
+Performance Timing APIs
